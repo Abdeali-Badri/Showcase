@@ -37,7 +37,7 @@ from typing import Dict, Any, List
 import google.generativeai as genai
 from pydantic import ValidationError
 
-from schemas import PortfolioOutput
+from agents.schemas.portfolio import PortfolioOutput
 
 
 class GenerationAgent:
